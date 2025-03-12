@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+#root {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: auto;
+    text-align: center;
+    background-color: #083838;
+    color: white;
+    font-family: Arial (sans-serif);
+}  
+
+/* App.css */
+
+.image-enter {
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  .image-enter-active {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  .text-enter {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  .text-enter-active {
+    transform: translateX(0);
+    opacity: 1;
+  }

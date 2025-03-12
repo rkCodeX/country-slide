@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+#root {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: auto;
+    text-align: center;
+    background-color: #083838;
+    color: white;
+    font-family: san
+}  
