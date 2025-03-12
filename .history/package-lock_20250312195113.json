@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "lockfileVersion": 3,
   "requires": true,
+  "homepage": "https://rkCodeX.github.io/country-slide/",
   "packages": {
     "": {
       "name": "countryslide",
